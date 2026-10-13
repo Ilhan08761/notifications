@@ -14,7 +14,7 @@ body {
 }
 
 form,
-.orderBtnHidden {
+.orderBtn {
   background: #ffffff;
   padding: 24px;
   border-radius: 12px;
@@ -53,14 +53,14 @@ form input:focus {
 }
 
 form button,
-.orderBtnHidden button {
+.orderBtn button {
   display: block;
   width: 100%;
-  margin-bottom: 10px;
-  padding: 12px;
+  margin-bottom: 12px;
+  padding: 16px 20px;
   border: none;
-  border-radius: 6px;
-  font-size: 15px;
+  border-radius: 8px;
+  font-size: 16px;
   font-weight: 600;
   cursor: pointer;
   transition:
@@ -69,16 +69,12 @@ form button,
 }
 
 form button:active,
-.orderBtnHidden button:active {
+.orderBtn button:active {
   transform: scale(0.98);
 }
 
-.orderBtnHidden button:last-child {
+.orderBtn button:last-child {
   margin-bottom: 0;
-}
-
-.hidden {
-  display: none;
 }
 
 form button[type="submit"] {
